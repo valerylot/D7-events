@@ -1,0 +1,9 @@
+.open{
+    color: green;
+    font-weight: bold;
+}
+
+.done{
+    color: gray;
+    text-decoration: line-through;
+}
