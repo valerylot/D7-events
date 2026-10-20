@@ -19,3 +19,13 @@
 ## Listeners on Elements I Made
 - An element created with createElement can have a listener
 - Add the listener before appending the element 
+
+## A click hits the parents too
+- Clicking a button inside an li runs the buttons listener and the li's listener
+- Deepest element first, then outward through its parents
+
+## Other event types
+- "input" = every key stroke, value already updated
+- "change" = once, when they leave the box 
+- "keydown" = key going down, before the input updates. value is ONE behind
+- event.key = tells us which key was pressed
